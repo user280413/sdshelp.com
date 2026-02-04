@@ -8,8 +8,9 @@ body {
   color: #253238;
 }
 header {
-  background: linear-gradient(120deg, #04AA6D, #0F88D7);
+  background: linear-gradient(120deg, #140e5c, #2b4698);
   color: #fff;
+  font-size: 24px;
   padding: 60px 20px;
   text-align: center;
 }
@@ -25,10 +26,32 @@ section {
   margin-bottom: 24px;
   box-shadow: 0 10px 25px rgba(15, 23, 42, 0.08);
 }
-section h2 {
+h2 {
   margin-top: 0;
-  color: #04AA6D;
+  font-size: 30px;
+  color: #2b4698;
 }
+.myButton {
+  font-family: "Segoe UI", Roboto, sans-serif;
+  background-color: #fff;
+  border: none; 
+  width: 100%;
+  display: block;
+  padding: 24px;
+  margin-bottom: 24px;
+  text-align: left; 
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer; 
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.08);
+  transition: background-color 0.15s ease-out, transform 0.15s ease-out;
+}
+.myButton:hover {
+            background-color: rgba(240, 240, 240, 1);
+            transform: scale(1.03);
+        }
+
 footer {
   padding: 24px;
   text-align: center;
